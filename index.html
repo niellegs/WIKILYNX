@@ -7,6 +7,10 @@
     <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); </style>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/helvetica-neue-lt-std-55');
+        </style>
+    <link href="//db.onlinewebfonts.com/c/682a46980d1cfd9fcce6ebcacb2989d8?family=Helvetica+Neue+LT+Pro" rel="stylesheet" type="text/css"/>
     <title>Home | WIKILYNX</title>
 </head>
 <body>
@@ -16,6 +20,7 @@
             <h1 id="nav-h1">WIKILYNX</h1>
         </div>
         <nav>
+            <img id="menu-icon" src="images/menu.png" alt="">
             <label id='box' for="pesquisa">
                 <input type="text" name="search-box" id="search-box" placeholder="INSIRA AS PALAVRAS-CHAVES">
                 <button id="button-nav"><img id='img-button-nav' src="images/lupe.png" alt=""></button>
@@ -23,24 +28,27 @@
         </nav>
     </header>
     <main>
-        <h1>ARTIGOS</h1>
-        <section>
-            <div>
-                <img src="images/jeremy-hacking.jpg" alt="jeremy-using-a-computer">
-                <h1>JEREMY HAMMOND: 10 ANOS</h1>
-                <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextT</p>
+        <h1 id="h1-main" >ARTIGOS</h1>
+        <div id="line-2"></div>
+        <div id="line-1"></div>
+        <section id="news">
+            <div id="notice-1">
+                <img id="img-notice-1" src="images/jeremy-hacking.jpg" alt="jeremy-using-a-computer">
+                <h1 id="notice-1-h1">JEREMY HAMMOND: 10 ANOS</h1>
+                <p id="notice-1-p">TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextT</p>
             </div>
-            <div>
-                <img src="images/anonymous.jpg" alt="anonymous-photo">
+            <div id="line-3" ></div>
+            <div id="notice-2">
+                <img id='notice-img-2' src="images/anonymous.jpg" alt="anonymous-photo">
                 <h1>ATAQUE ANONYMOUS</h1>
                 <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextT</p>
             </div>
-            <div>
-                <img src="images/julian.jpg" alt="julian-assange">
+            <div id="notice-3">
+                <img id="notice-img-3" src="images/julian.jpg" alt="julian-assange">
                 <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextT</p>
             </div>
-            <div>
-                <img src="images/george-floyd.jpg" alt="protest">
+            <div id="notice-4">
+                <img id='img-notice-4' src="images/george-floyd.jpg" alt="protest">
                 <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextT</p>
             </div>
         </section>
