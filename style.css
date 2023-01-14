@@ -129,9 +129,10 @@ body {
 }
 
 #notice-1-h1 {
-    transform: translate(31rem, 0);
+    transform: translate(20rem, 0);
     font-family: Helvetica93;
     color: #49FF00;
+    font-size: 2.5rem;
 
 }
 
@@ -139,13 +140,16 @@ body {
     color: #CCFFB7;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.1rem;
-    width: 1rem;
+    width: 50rem;
+    margin-left: 20rem;
+    text-align: center;
 }
 
 #line-3 {
-    width: 5rem;
+    width: 78rem;
     height: 0.1rem;
     background-color: #49FF00;
+    transform: translate(10rem, 14rem);
 }
 
 #notice-2 {
@@ -153,32 +157,146 @@ body {
     height: auto;
     padding-top: 10rem;
     color: #49FF00;
+    transform: translate(3rem, 11rem);
 }
 
 #notice-img-2 {
     border: 0.1rem solid #49FF00;
     border-radius: 4rem;
-    width: 1000px;
+    width: 600px;
     height: auto;
+}
+
+#notice-h1-2 {
+    font-family: 'Helvetica93';
+    font-size: 1.9rem;
+    margin-left: 5rem;
+}
+
+#notice-p-2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #CCFFB7;
+    width: 30rem;
+    text-align: center;
+    margin-left: 4rem;
 }
 
 #notice-3 {
-    border:0.1rem solid #49FF00;
     width: 90%;
     height: auto;
+    transform: translate(51rem, -24rem);
 }
 
 #notice-img-3 {
+    border-radius: 4rem;
     border: 0.1rem solid #49FF00;
+    width: 40rem;
+
+}
+
+#h1-notice-3 {
+    font-family: 'Helvetica93';
+    font-size: 1.9rem;
+    color: #49FF00;
+    margin-left: 15rem;
+}
+
+#p-notice-3 {
+    font-family: 'Roboto Mono', monospace;
+    color: #CCFFB7;
+    text-align: center;
+    width: 30rem;
+    margin-left: 6rem;
 }
 
 #notice-4 {
-    border:0.1rem solid #49FF00;
-    width: 90%;
-    height: auto;
+    color: #49FF00;
 }
 
 #img-notice-4 {
-    width: 90%;
+    width: 65rem;
     height: auto;
+    border-radius: 4rem;
+    border: 0.1rem solid #49FF00;
+    transform: translate(14rem, -34rem);
+}
+
+#h1-notice-4 {
+    font-family: Helvetica93;
+    margin-top: -30rem;
+    font-size: 1.9rem;
+    margin-left: 25rem;
+}
+
+#p-notice-4 {
+    color: #CCFFB7;
+    font-family: 'Roboto Mono', monospace;
+    width: 50rem;
+    text-align: center;
+    padding-left: 20rem;
+    font-size: 1rem;
+    padding-bottom: 4rem;
+}
+
+#line-5 {
+    width: 0.1rem;
+    height: 80rem;
+    background-color:#49FF00;
+    margin-left: 46rem;
+    margin-top: -61rem;
+    transform:rotate(270deg);
+}
+
+/******** FOOTER  *********/
+
+#footer {
+    background-color: #49FF00;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo-footer {
+    height: 10rem;
+    width: auto;
+    padding-top: 4rem;
+    padding-left: 40rem;
+}
+
+#p-footer {
+    font-family: 'Helvetica85';
+    font-size: 1.01rem;
+    padding-top: 0.5rem;
+    padding-left: 39rem;
+}
+
+#info-ul {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    padding-left: 22rem;
+    padding-top: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: bold;
+}
+
+#item-1 {
+    
+}
+#item-2{
+    transform: translate(7rem, 0);
+}
+
+#item-3 {
+    transform: translate(5rem, 0rem);
+}
+
+#logo-ul {
+    
 }
