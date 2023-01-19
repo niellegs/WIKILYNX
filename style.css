@@ -252,6 +252,7 @@ body {
 #footer {
     background-color: #49FF00;
     font-family: 'Roboto Mono', monospace;
+    padding-bottom: 5rem;
 }
 
 #logo-footer {
@@ -270,14 +271,26 @@ body {
 
 #info-ul {
     display: flex;
-    float: left;
     list-style-type: none;
     padding-left: 22rem;
     padding-top: 1rem;
     color: black;
     text-decoration: none;
     font-size: 1.3rem;
+    padding-left: 1rem;
 
+}
+
+#item-1 {
+    transform: translate(25rem, 0);
+}
+
+#item-2 {
+    transform: translate(-5rem, 0);
+}
+
+#item-3 {
+    transform: translate(-25rem,0);
 }
 
 a {
@@ -285,18 +298,40 @@ a {
     color: #030303;
     font-weight: bold;
 }
-
-#item-1 {
-    
-}
-#item-2{
-    transform: translate(7rem, 0);
+ul {
+    display: inline-block;
 }
 
-#item-3 {
-    transform: translate(5rem, 0rem);
+#info-ul {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-right: 4px;
+    justify-content: space-between;
+    transform: translate(0rem, 0);
 }
 
 #logo-ul {
-    
+    list-style-type: none;
+    display: flex;
+    padding-top: 5rem;
+    padding-right: 15rem;
+    transform: translate(0rem,3rem);
+    padding-bottom: 2rem;
+}
+
+#logo-fb {
+    height: 4.5rem;
+    transform: translate(25rem,-6.5rem);
+}
+
+#logo-insta {
+    height: 4.5rem;
+    transform: translate(38rem,-6.5rem);
+}
+
+#logo-tt {
+    height: 4.5rem;
+    transform: translate(51rem,-6.5rem);
 }
